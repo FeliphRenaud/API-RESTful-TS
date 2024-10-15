@@ -78,10 +78,39 @@ Crie um arquivo `.gitignore` na raiz do projeto e adicione a seguinte linha para
 
 ```
 /node_modules
+
 ```
 
-## Finalização
+## Configurando o package.json
+
+### 3. Configurando o `package.json`
+
+No arquivo `package.json`, edite a seção de scripts para incluir um comando de inicialização para desenvolvimento:
+
+```json
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
+}
+```
+
+### 4. Executando o Projeto
+
+Para rodar o projeto com o TypeScript e o Express, execute o seguinte comando no terminal:
+
+```bash
+npm run dev
+```
+
+Isso inicializa o servidor, converte o código TypeScript para JavaScript e recarrega automaticamente a cada modificação no código.
+
+## Finalizando a instalação do projeto
 
 Após seguir estes passos, você está pronto para começar a desenvolver sua API RESTful utilizando TypeScript e Express. Não se esqueça de configurar suas variáveis de ambiente no arquivo `.env` e utilizar o MongoDB Atlas para conectar ao banco de dados.
 
 Bom desenvolvimento!
+
+## Observação final
+
+O servidor do Mongo Atlas utiliza a porta 27017 que pode estar bloquada no seu dispotivo ou até mesmo pelo seu provedor de internet.
+No meu caso foi necessario criar as portas de entrada e saida no meu sistema operacional e acessar o provedor de internet via serviço de VPN
