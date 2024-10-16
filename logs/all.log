@@ -1,0 +1,13 @@
+2024-10-16 13:56:52 - [32minfo[39m: [32mO servidor esta rodando na porta: 3000[39m
+2024-10-16 13:59:01 - [32minfo[39m: [32mConnectado com sucesso ao banco de dados[39m
+2024-10-16 13:59:01 - [32minfo[39m: [32mO servidor esta rodando na porta: 3000[39m
+2024-10-16 14:00:03 - [31merror[39m: [31mNão foi possivel connectar [39m
+2024-10-16 14:00:03 - [31merror[39m: [31mError: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.w8bo.mongodb.net[39m
+2024-10-16 14:00:03 - [32minfo[39m: [32mO servidor esta rodando na porta: 3000[39m
+2024-10-16 14:00:11 - [32minfo[39m: [32mConnectado com sucesso ao banco de dados[39m
+2024-10-16 14:00:11 - [32minfo[39m: [32mO servidor esta rodando na porta: 3000[39m
+2024-10-16 14:01:02 - [32minfo[39m: [32mConnectado com sucesso ao banco de dados[39m
+2024-10-16 14:01:02 - [32minfo[39m: [32mO servidor esta rodando na porta: 3000[39m
+2024-10-16 14:01:14 - [31merror[39m: [31mNão foi possivel connectar [39m
+2024-10-16 14:01:24 - [32minfo[39m: [32mConnectado com sucesso ao banco de dados[39m
+2024-10-16 14:01:24 - [32minfo[39m: [32mO servidor esta rodando na porta: 3000[39m

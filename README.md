@@ -112,5 +112,4 @@ Bom desenvolvimento!
 
 ## Observação final
 
-O servidor do Mongo Atlas utiliza a porta 27017 que pode estar bloquada no seu dispotivo ou até mesmo pelo seu provedor de internet.
-No meu caso foi necessario criar as portas de entrada e saida no meu sistema operacional e acessar o provedor de internet via serviço de VPN
+1. O servidor do Mongo Atlas utiliza a porta 27017 que pode estar bloquada no seu dispotivo ou até mesmo pelo seu provedor de internet, no meu caso foi necessario criar as portas de entrada e saida no meu sistema operacional e acessar o provedor de internet via serviço de VPN

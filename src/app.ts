@@ -1,3 +1,6 @@
+//env
+require("dotenv").config();
+
 import express from "express";
 import config from "config";
 
@@ -15,10 +18,14 @@ import router from "./router";
 
 app.use("/api/", router);
 
+//loggers
+
+import Logger from "../config/logger";
+
 // app port
 const port = config.get<number>("port");
 
 app.listen(port, async () => {
   await db();
-  console.log(`O servidor esta rodando na porta: ${port}`);
+  Logger.info(`O servidor esta rodando na porta: ${port}`);
 });
