@@ -16,12 +16,16 @@ import db from "../config/db";
 //Routes
 import router from "./router";
 
-app.use("/api/", router);
-
 //loggers
 
 import Logger from "../config/logger";
 
+//Middleware
+import MorganMiddleware from "./middleware/MorganMiddleware";
+
+app.use(MorganMiddleware);
+
+app.use("/api/", router);
 // app port
 const port = config.get<number>("port");
 
