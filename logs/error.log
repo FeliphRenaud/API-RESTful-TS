@@ -1,3 +1,16 @@
 2024-10-16 14:00:03 - [31merror[39m: [31mNão foi possivel connectar [39m
 2024-10-16 14:00:03 - [31merror[39m: [31mError: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.w8bo.mongodb.net[39m
 2024-10-16 14:01:14 - [31merror[39m: [31mNão foi possivel connectar [39m
+2024-10-22 14:44:30 - [31merror[39m: [31mNão foi possivel connectar [39m
+2024-10-22 15:47:31 - [31merror[39m: [31mNão foi possivel connectar [39m
+2024-10-22 16:23:59 - [31merror[39m: [31mPane no sistema, alguem me desconfigurou: Cast to ObjectId failed for value "6717f74fa75483e0422e0e6" (type string) at path "_id" for model "Movie"[39m
+2024-10-22 16:26:42 - [31merror[39m: [31mPane no sistema, alguem me desconfigurou: Cast to ObjectId failed for value "6717f74fa75483e0422e0e6" (type string) at path "_id" for model "Movie"[39m
+2024-10-22 16:55:11 - [31merror[39m: [31mPane no sistema, alguem me desconfigurou: movie.delete is not a function[39m
+2024-10-22 16:55:44 - [31merror[39m: [31mPane no sistema, alguem me desconfigurou: movie.delete is not a function[39m
+2024-10-22 17:00:28 - [31merror[39m: [31mPane no sistema, alguem me desconfigurou: movie.delete is not a function[39m
+2024-10-22 17:02:30 - [31merror[39m: [31mPane no sistema, alguem me desconfigurou: movie.delete is not a function[39m
+2024-10-22 17:22:08 - [31merror[39m: [31mPane no sistema, alguem me desconfigurou: Cast to ObjectId failed for value "67169272f8b824b793bf35fZ" (type string) at path "_id" for model "Movie"[39m
+2024-10-22 17:22:32 - [31merror[39m: [31mPane no sistema, alguem me desconfigurou: Cast to ObjectId failed for value "67169272f8b824b793bf35fZ" (type string) at path "_id" for model "Movie"[39m
+2024-10-22 17:23:13 - [31merror[39m: [31mPane no sistema, alguem me desconfigurou: Cast to ObjectId failed for value "67169272f8b824b793bf35fZ" (type string) at path "_id" for model "Movie"[39m
+2024-10-22 17:24:33 - [31merror[39m: [31mPane no sistema, alguem me desconfigurou: Cast to ObjectId failed for value "67169272f8b824b793bf35fZ" (type string) at path "_id" for model "Movie"[39m
+2024-10-22 17:25:44 - [31merror[39m: [31mPane no sistema, alguem me desconfigurou: Cast to ObjectId failed for value "67169272f8b824b793bf35fZ" (type string) at path "_id" for model "Movie"[39m
